@@ -8,7 +8,7 @@ function Weather() {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const API_KEY = '98740f4ebc0d63bc0f8ba70090e5a091'; // Replace with your actual API key
+  const API_KEY = '98740f4ebc0d63bc0f8ba70090e5a091'; 
 
   const handleCityChange = (e) => {
     setCity(e.target.value);
